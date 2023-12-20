@@ -50,6 +50,15 @@ set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_G21 -to CLK_IN
+set_location_assignment PIN_H2 -to RST
+set_global_assignment -name BDF_FILE PARTE_OPERATIVA/RUN_STEP_MODE/RUN_STEP_MODE.bdf
+set_global_assignment -name BDF_FILE PARTE_OPERATIVA/TEMPORIZADOR/CONT_3b.bdf
+set_global_assignment -name BDF_FILE PARTE_OPERATIVA/TEMPORIZADOR/DECOD_3_8.bdf
+set_global_assignment -name BDF_FILE PARTE_OPERATIVA/TEMPORIZADOR/TEMPORIZADOR.bdf
 set_global_assignment -name BDF_FILE PARTE_OPERATIVA/DIV_FREQ/FREQ_DIV.bdf
 set_global_assignment -name BDF_FILE PARTE_OPERATIVA/ULA/ULA.bdf
 set_global_assignment -name BDF_FILE PARTE_OPERATIVA/ULA/RCA.bdf
@@ -74,9 +83,6 @@ set_global_assignment -name BDF_FILE PARTE_OPERATIVA/DECODIFICADOR_BCD/DECOD_BCD
 set_global_assignment -name BDF_FILE PARTE_OPERATIVA/DECODIFICADOR_BCD/DECOD_BCD_4b.bdf
 set_global_assignment -name BDF_FILE PROJETO_NEANDER.bdf
 set_global_assignment -name BDF_FILE PARTE_OPERATIVA/CODIFICADOR/COD_ULA.bdf
-set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
-set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_location_assignment PIN_G3 -to STEP_UP
+set_location_assignment PIN_J6 -to RUN_STEP
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
-set_location_assignment PIN_G21 -to CLK_IN
-set_location_assignment PIN_H2 -to RST
