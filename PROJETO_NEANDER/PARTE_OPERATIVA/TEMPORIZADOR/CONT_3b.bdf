@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 64 384 232 400)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "HLT" (rect 5 0 26 12)(font "Arial" ))
+	(text "HLT" (rect 5 0 25 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 64 496 232 512)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "RES" (rect 5 0 28 12)(font "Arial" ))
+	(text "RES" (rect 5 0 27 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -352,31 +352,6 @@ applicable agreement for further details.
 	(rect 280 344 328 376)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "NOT1" (rect 3 21 31 33)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 13 16))
-	)
-	(port
-		(pt 48 16)
-		(output)
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(line (pt 39 16)(pt 48 16))
-	)
-	(drawing
-		(line (pt 13 25)(pt 13 7))
-		(line (pt 13 7)(pt 31 16))
-		(line (pt 13 25)(pt 31 16))
-		(circle (rect 31 12 39 20))
-	)
-)
-(symbol
-	(rect 256 488 304 520)
-	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
-	(text "NOT0" (rect 3 21 31 33)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -730,10 +705,6 @@ applicable agreement for further details.
 	(pt 560 504)
 )
 (connector
-	(pt 256 504)
-	(pt 232 504)
-)
-(connector
 	(text "S[0]" (rect 668 520 688 532)(font "Arial" ))
 	(pt 664 536)
 	(pt 688 536)
@@ -801,14 +772,6 @@ applicable agreement for further details.
 	(pt 1528 472)
 )
 (connector
-	(pt 304 504)
-	(pt 560 504)
-)
-(connector
-	(pt 560 504)
-	(pt 1040 504)
-)
-(connector
 	(pt 1040 504)
 	(pt 1584 504)
 )
@@ -819,6 +782,14 @@ applicable agreement for further details.
 (connector
 	(pt 1688 360)
 	(pt 1688 536)
+)
+(connector
+	(pt 232 504)
+	(pt 560 504)
+)
+(connector
+	(pt 560 504)
+	(pt 1040 504)
 )
 (junction (pt 664 360))
 (junction (pt 344 272))
