@@ -57,7 +57,6 @@ set_location_assignment PIN_G21 -to CLK_IN
 set_location_assignment PIN_H2 -to RST
 set_location_assignment PIN_G3 -to STEP_UP
 set_location_assignment PIN_J6 -to RUN_STEP
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_location_assignment PIN_B18 -to PC1_A
 set_location_assignment PIN_F15 -to PC1_B
 set_location_assignment PIN_A19 -to PC1_C
@@ -86,7 +85,33 @@ set_location_assignment PIN_H13 -to AC0_D
 set_location_assignment PIN_G12 -to AC0_E
 set_location_assignment PIN_F12 -to AC0_F
 set_location_assignment PIN_F13 -to AC0_G
+set_global_assignment -name SIMULATION_MODE TIMING
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_location_assignment PIN_J1 -to N_OUT
+set_location_assignment PIN_E1 -to HLT_OUT
+set_location_assignment PIN_J2 -to Z_OUT
 set_global_assignment -name BDF_FILE PROJETO_NEANDER.bdf
+set_global_assignment -name BDF_FILE PARTE_DE_CONTROLE/CONT_UNIT.bdf
+set_global_assignment -name BDF_FILE PARTE_DE_CONTROLE/WRITE.bdf
+set_global_assignment -name BDF_FILE PARTE_DE_CONTROLE/ULA_Y.bdf
+set_global_assignment -name BDF_FILE PARTE_DE_CONTROLE/ULA_OR.bdf
+set_global_assignment -name BDF_FILE PARTE_DE_CONTROLE/ULA_NOT.bdf
+set_global_assignment -name BDF_FILE PARTE_DE_CONTROLE/ULA_AND.bdf
+set_global_assignment -name BDF_FILE PARTE_DE_CONTROLE/ULA_ADD.bdf
+set_global_assignment -name BDF_FILE PARTE_DE_CONTROLE/SEL.bdf
+set_global_assignment -name BDF_FILE PARTE_DE_CONTROLE/READ.bdf
+set_global_assignment -name BDF_FILE PARTE_DE_CONTROLE/INC_PC.bdf
+set_global_assignment -name BDF_FILE PARTE_DE_CONTROLE/GOTO_T0.bdf
+set_global_assignment -name BDF_FILE PARTE_DE_CONTROLE/C_RI.bdf
+set_global_assignment -name BDF_FILE PARTE_DE_CONTROLE/C_REM.bdf
+set_global_assignment -name BDF_FILE PARTE_DE_CONTROLE/C_RDM.bdf
+set_global_assignment -name BDF_FILE PARTE_DE_CONTROLE/C_PC.bdf
+set_global_assignment -name BDF_FILE PARTE_DE_CONTROLE/C_NZ.bdf
+set_global_assignment -name BDF_FILE PARTE_DE_CONTROLE/C_AC.bdf
+set_global_assignment -name VHDL_FILE PARTE_OPERATIVA/MEMORIA/ROM1.vhd
+set_global_assignment -name VHDL_FILE PARTE_OPERATIVA/MEMORIA/ROM2.vhd
 set_global_assignment -name BDF_FILE PARTE_OPERATIVA/REGISTRADORES/REG_INC_8b.bdf
 set_global_assignment -name BDF_FILE PARTE_OPERATIVA/REGISTRADORES/REG_8b.bdf
 set_global_assignment -name BDF_FILE PARTE_OPERATIVA/REGISTRADORES/REG_2I_8b.bdf
@@ -119,3 +144,9 @@ set_global_assignment -name BDF_FILE PARTE_OPERATIVA/DECODIFICADOR_BCD/DECOD_BCD
 set_global_assignment -name BDF_FILE PARTE_OPERATIVA/DECODIFICADOR_BCD/DECOD_BCD_B.bdf
 set_global_assignment -name BDF_FILE PARTE_OPERATIVA/DECODIFICADOR_BCD/DECOD_BCD_A.bdf
 set_global_assignment -name BDF_FILE PARTE_OPERATIVA/DECODIFICADOR_BCD/DECOD_BCD_4b.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE PARTE_OPERATIVA/MEMORIA/Waveform.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform1.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform2.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/hackm/Documents/UFRGS/2023-2/Circuitos_Digitais/inf01058-projetos/PROJETO_NEANDER/Waveform2.vwf"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

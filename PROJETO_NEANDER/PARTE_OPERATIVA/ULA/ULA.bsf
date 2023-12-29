@@ -26,15 +26,15 @@ applicable agreement for further details.
 	(port
 		(pt 0 32)
 		(input)
-		(text "A[7..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
-		(text "A[7..0]" (rect 21 27 58 41)(font "Arial" (font_size 8)))
+		(text "X[7..0]" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "X[7..0]" (rect 21 27 57 41)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
 		(pt 0 48)
 		(input)
-		(text "B[7..0]" (rect 0 0 36 14)(font "Arial" (font_size 8)))
-		(text "B[7..0]" (rect 21 43 57 57)(font "Arial" (font_size 8)))
+		(text "Y[7..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "Y[7..0]" (rect 21 43 58 57)(font "Arial" (font_size 8)))
 		(line (pt 0 48)(pt 16 48)(line_width 3))
 	)
 	(port
