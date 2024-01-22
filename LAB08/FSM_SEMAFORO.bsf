@@ -1,0 +1,114 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 40 40 264 248)
+	(text "FSM_SEMAFORO" (rect 40 24 140 38)(font "Arial" (font_size 8)))
+	(text "inst" (rect 40 168 57 180)(font "Arial" ))
+	(port
+		(pt 0 56)
+		(input)
+		(text "CLK" (rect 0 24 23 38)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 40 48 63 62)(font "Arial" (font_size 8)))
+		(line (pt 0 56)(pt 40 56))
+	)
+	(port
+		(pt 0 72)
+		(input)
+		(text "RES" (rect 0 24 23 38)(font "Arial" (font_size 8)))
+		(text "RES" (rect 40 64 63 78)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 24 72))
+	)
+	(port
+		(pt 0 88)
+		(input)
+		(text "TEMP[3..0]" (rect 0 24 59 38)(font "Arial" (font_size 8)))
+		(text "TEMP[3..0]" (rect 41 80 100 94)(font "Arial" (font_size 8)))
+		(line (pt 0 88)(pt 40 88)(line_width 3))
+	)
+	(port
+		(pt 0 104)
+		(input)
+		(text "E_PR0" (rect 0 24 36 38)(font "Arial" (font_size 8)))
+		(text "E_PR0" (rect 40 96 76 110)(font "Arial" (font_size 8)))
+		(line (pt 0 104)(pt 40 104))
+	)
+	(port
+		(pt 0 120)
+		(input)
+		(text "E_PR1" (rect 0 24 36 38)(font "Arial" (font_size 8)))
+		(text "E_PR1" (rect 40 112 76 126)(font "Arial" (font_size 8)))
+		(line (pt 0 120)(pt 40 120))
+	)
+	(port
+		(pt 224 56)
+		(output)
+		(text "RES_TEMP" (rect 48 24 109 38)(font "Arial" (font_size 8)))
+		(text "RES_TEMP" (rect 120 48 181 62)(font "Arial" (font_size 8)))
+		(line (pt 224 56)(pt 184 56))
+	)
+	(port
+		(pt 224 72)
+		(output)
+		(text "EPR0" (rect 48 24 77 38)(font "Arial" (font_size 8)))
+		(text "EPR0" (rect 152 64 181 78)(font "Arial" (font_size 8)))
+		(line (pt 224 72)(pt 184 72))
+	)
+	(port
+		(pt 224 88)
+		(output)
+		(text "EPR1" (rect 48 24 77 38)(font "Arial" (font_size 8)))
+		(text "EPR1" (rect 152 80 181 94)(font "Arial" (font_size 8)))
+		(line (pt 224 88)(pt 184 88))
+	)
+	(port
+		(pt 224 104)
+		(output)
+		(text "VERDE" (rect 48 24 88 38)(font "Arial" (font_size 8)))
+		(text "VERDE" (rect 136 96 176 110)(font "Arial" (font_size 8)))
+		(line (pt 224 104)(pt 184 104))
+	)
+	(port
+		(pt 224 120)
+		(output)
+		(text "AMARELO" (rect 48 24 108 38)(font "Arial" (font_size 8)))
+		(text "AMARELO" (rect 120 112 180 126)(font "Arial" (font_size 8)))
+		(line (pt 224 120)(pt 184 120))
+	)
+	(port
+		(pt 224 136)
+		(output)
+		(text "VERMELHO" (rect 48 24 114 38)(font "Arial" (font_size 8)))
+		(text "VERMELHO" (rect 112 128 178 142)(font "Arial" (font_size 8)))
+		(line (pt 224 136)(pt 184 136))
+	)
+	(port
+		(pt 224 152)
+		(output)
+		(text "LOAD_OUT" (rect 48 24 114 38)(font "Arial" (font_size 8)))
+		(text "LOAD_OUT" (rect 112 144 178 158)(font "Arial" (font_size 8)))
+		(line (pt 224 152)(pt 184 152))
+	)
+	(drawing
+		(rectangle (rect 40 40 184 168))
+		(circle (rect 24 64 40 80))
+	)
+)
