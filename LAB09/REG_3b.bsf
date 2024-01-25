@@ -1,0 +1,93 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 56 56 184 240)
+	(text "REG_3b" (rect 32 16 78 30)(font "Arial" (font_size 8)))
+	(text "inst" (rect 32 160 49 172)(font "Arial" ))
+	(port
+		(pt 0 40)
+		(input)
+		(text "L_IN0" (rect 0 8 31 22)(font "Arial" (font_size 8)))
+		(text "L_IN0" (rect 32 32 63 46)(font "Arial" (font_size 8)))
+		(line (pt 0 40)(pt 32 40))
+	)
+	(port
+		(pt 0 56)
+		(input)
+		(text "L_IN1" (rect 0 8 31 22)(font "Arial" (font_size 8)))
+		(text "L_IN1" (rect 32 48 63 62)(font "Arial" (font_size 8)))
+		(line (pt 0 56)(pt 32 56))
+	)
+	(port
+		(pt 0 72)
+		(input)
+		(text "L_IN2" (rect 0 8 31 22)(font "Arial" (font_size 8)))
+		(text "L_IN2" (rect 32 64 63 78)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 32 72))
+	)
+	(port
+		(pt 0 120)
+		(input)
+		(text "LOAD" (rect 0 8 34 22)(font "Arial" (font_size 8)))
+		(text "LOAD" (rect 32 112 66 126)(font "Arial" (font_size 8)))
+		(line (pt 0 120)(pt 32 120))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "CLK" (rect 0 8 23 22)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 32 88 55 102)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 32 96))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "RES" (rect 0 8 23 22)(font "Arial" (font_size 8)))
+		(text "RES" (rect 32 136 55 150)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 16 144))
+	)
+	(port
+		(pt 128 40)
+		(output)
+		(text "S0" (rect 32 8 47 22)(font "Arial" (font_size 8)))
+		(text "S0" (rect 80 32 95 46)(font "Arial" (font_size 8)))
+		(line (pt 128 40)(pt 96 40))
+	)
+	(port
+		(pt 128 56)
+		(output)
+		(text "S1" (rect 32 8 47 22)(font "Arial" (font_size 8)))
+		(text "S1" (rect 80 48 95 62)(font "Arial" (font_size 8)))
+		(line (pt 128 56)(pt 96 56))
+	)
+	(port
+		(pt 128 72)
+		(output)
+		(text "S2" (rect 32 8 47 22)(font "Arial" (font_size 8)))
+		(text "S2" (rect 80 64 95 78)(font "Arial" (font_size 8)))
+		(line (pt 128 72)(pt 96 72))
+	)
+	(drawing
+		(rectangle (rect 32 32 96 160))
+		(circle (rect 16 136 32 152))
+	)
+)

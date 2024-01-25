@@ -1,0 +1,93 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 40 40 184 216)
+	(text "FSM_ELE" (rect 40 24 93 38)(font "Arial" (font_size 8)))
+	(text "inst" (rect 40 136 57 148)(font "Arial" ))
+	(port
+		(pt 0 56)
+		(input)
+		(text "CLK" (rect 0 24 23 38)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 40 48 63 62)(font "Arial" (font_size 8)))
+		(line (pt 0 56)(pt 40 56))
+	)
+	(port
+		(pt 0 72)
+		(input)
+		(text "RES" (rect 0 24 23 38)(font "Arial" (font_size 8)))
+		(text "RES" (rect 40 64 63 78)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 24 72))
+	)
+	(port
+		(pt 0 88)
+		(input)
+		(text "A" (rect 0 24 9 38)(font "Arial" (font_size 8)))
+		(text "A" (rect 40 80 49 94)(font "Arial" (font_size 8)))
+		(line (pt 0 88)(pt 40 88))
+	)
+	(port
+		(pt 0 104)
+		(input)
+		(text "BS" (rect 0 24 16 38)(font "Arial" (font_size 8)))
+		(text "BS" (rect 40 96 56 110)(font "Arial" (font_size 8)))
+		(line (pt 0 104)(pt 40 104))
+	)
+	(port
+		(pt 0 120)
+		(input)
+		(text "BD" (rect 0 24 16 38)(font "Arial" (font_size 8)))
+		(text "BD" (rect 40 112 56 126)(font "Arial" (font_size 8)))
+		(line (pt 0 120)(pt 40 120))
+	)
+	(port
+		(pt 144 56)
+		(output)
+		(text "S" (rect 48 24 56 38)(font "Arial" (font_size 8)))
+		(text "S" (rect 96 48 104 62)(font "Arial" (font_size 8)))
+		(line (pt 144 56)(pt 104 56))
+	)
+	(port
+		(pt 144 72)
+		(output)
+		(text "D" (rect 48 24 56 38)(font "Arial" (font_size 8)))
+		(text "D" (rect 96 64 104 78)(font "Arial" (font_size 8)))
+		(line (pt 144 72)(pt 104 72))
+	)
+	(port
+		(pt 144 88)
+		(output)
+		(text "AF" (rect 48 24 64 38)(font "Arial" (font_size 8)))
+		(text "AF" (rect 88 80 104 94)(font "Arial" (font_size 8)))
+		(line (pt 144 88)(pt 104 88))
+	)
+	(port
+		(pt 144 104)
+		(output)
+		(text "LB" (rect 48 24 63 38)(font "Arial" (font_size 8)))
+		(text "LB" (rect 88 96 103 110)(font "Arial" (font_size 8)))
+		(line (pt 144 104)(pt 104 104))
+	)
+	(drawing
+		(rectangle (rect 40 40 104 136))
+		(circle (rect 24 64 40 80))
+	)
+)
